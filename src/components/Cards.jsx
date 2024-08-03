@@ -5,7 +5,7 @@ function ItemCard({post}) {
   return (
     <div  className="col-3 mb-3">
         <div className="card text-white border border-light border-opacity-25 p-2" style={{ width: '94%',margin:'3%' }}>
-            <img src={`https://picsum.photos/200?random=${post.id}`} className="card-img-top" alt="images" />
+            <img src={`https://picsum.photos/200?random=${post.id}`} className="card-img-top" />
             <div className="card-body ">
                 <p className="card-text">User ID: {post.userId}</p>
                 <p className="card-title card-text">
